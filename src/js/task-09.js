@@ -6,11 +6,11 @@ function getRandomHexColor() {
 
 const actionBtn = document.querySelector(".change-color");
 const colorField = document.querySelector(".color");
-const widget = document.querySelector(".widget");
+const widgets = document.querySelector(".widget");
 
 function onChangeColorButtonClick() {
   const randomColor = getRandomHexColor();
-  widget.style.backgroundColor = randomColor;
+  widgets.style.backgroundColor = randomColor;
   colorField.textContent = randomColor;
 }
 
